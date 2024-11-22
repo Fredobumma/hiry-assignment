@@ -14,13 +14,20 @@ export default {
 			borderColor: {
 				remove: "#FECDD3",
 			},
+			boxShadow: {
+				navItem:
+					"0px 4px 8px -2px rgba(31, 41, 55, 0.10), 0px 2px 4px -2px rgba(31, 41, 55, 0.06)",
+			},
 			colors: {
+				accent: "#DCFF7A",
+				inActiveNav: "#F4F2FF",
+				noColor: "#E4E4E7",
 				primary: "#18181B",
+				remove: "#E11D48",
+				secondary: "#0500FF",
 				step: "#71717A",
 				subheading: "#52525B",
-				secondary: "#0500FF",
-				noColor: "#E4E4E7",
-				remove: "#E11D48",
+				tertiary: "#71717A",
 			},
 			fontSize: {
 				heading: "32px",
@@ -31,12 +38,15 @@ export default {
 				step: "-0.28px",
 			},
 			lineHeight: {
-				heading: "120%",
 				button: "130%",
+				heading: "120%",
 				subheading: "150%",
 			},
 			maxWidth: {
 				maximum: "1920px",
+			},
+			spacing: {
+				line: "18px",
 			},
 		},
 	},
