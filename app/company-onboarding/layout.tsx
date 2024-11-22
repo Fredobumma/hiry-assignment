@@ -5,17 +5,30 @@ export default function Layout({
 }>) {
 	return (
 		<main>
-			<p className="text-step text-sm leading-subheading tracking-step">
-				Step 1
-			</p>
-			<h1 className="font-medium text-heading leading-heading tracking-heading">
-				Company info
-			</h1>
-			<p className="text-subheading leading-subheading tracking-subheading">
-				To build a trusted community, we verify all companies on our platform.
-				Providing your website and LinkedIn profile allows us to confirm
-				legitimacy and keep standards high.
-			</p>
+			<button
+				type="button"
+				className="bg-secondary font-medium leading-button py-1 px-3 rounded-button text-white text-sm tracking-step hover:bg-primary transition ease-in-out duration-500"
+			>
+				Upload
+			</button>
+			<button
+				type="button"
+				className="border border-noColor font-medium leading-button py-1 px-3 rounded-button text-sm tracking-step hover:bg-secondary hover:text-white hover:border-secondary transition ease-in-out duration-500"
+			>
+				Uploading
+			</button>
+			<button
+				type="button"
+				className="border border-remove font-medium leading-button py-1 px-3 rounded-button text-remove text-sm tracking-step hover:bg-remove hover:text-white hover:border-remove transition ease-in-out duration-500"
+			>
+				Remove
+			</button>
+			<button
+				type="submit"
+				className="bg-secondary font-medium leading-button tracking-subheading p-3.5 rounded-button text-white w-full hover:bg-primary transition ease-in-out duration-500"
+			>
+				Continue
+			</button>
 			{children}
 		</main>
 	);

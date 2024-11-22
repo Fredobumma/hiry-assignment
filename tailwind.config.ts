@@ -8,10 +8,19 @@ export default {
 	],
 	theme: {
 		extend: {
+			borderRadius: {
+				button: "100px",
+			},
+			borderColor: {
+				remove: "#FECDD3",
+			},
 			colors: {
 				primary: "#18181B",
 				step: "#71717A",
 				subheading: "#52525B",
+				secondary: "#0500FF",
+				noColor: "#E4E4E7",
+				remove: "#E11D48",
 			},
 			fontSize: {
 				heading: "32px",
@@ -23,6 +32,7 @@ export default {
 			},
 			lineHeight: {
 				heading: "120%",
+				button: "130%",
 				subheading: "150%",
 			},
 			maxWidth: {
