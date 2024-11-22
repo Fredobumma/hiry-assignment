@@ -9,8 +9,21 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				background: "var(--background)",
-				foreground: "var(--foreground)",
+				primary: "#18181B",
+				step: "#71717A",
+				subheading: "#52525B",
+			},
+			fontSize: {
+				heading: "32px",
+			},
+			letterSpacing: {
+				heading: "-0.64px",
+				subheading: "-0.32px",
+				step: "-0.28px",
+			},
+			lineHeight: {
+				heading: "120%",
+				subheading: "150%",
 			},
 			maxWidth: {
 				maximum: "1920px",
