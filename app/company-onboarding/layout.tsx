@@ -1,4 +1,4 @@
-import { NavList } from "@/components";
+import { NavList } from "@/appComponents";
 
 export default function Layout({
 	children,
@@ -7,7 +7,7 @@ export default function Layout({
 }>) {
 	return (
 		<main>
-			<NavList />
+			{/* <NavList /> */}
 			{children}
 		</main>
 	);

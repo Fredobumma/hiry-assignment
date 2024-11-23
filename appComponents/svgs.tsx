@@ -125,3 +125,102 @@ export const ProgressSvg = () => (
 		/>
 	</svg>
 );
+
+export const WebsiteInputSvg = () => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="20"
+		height="20"
+		viewBox="0 0 20 20"
+		fill="none"
+	>
+		<path
+			d="M10.9919 7.24035C11.3661 7.4191 11.7167 7.66343 12.0267 7.97335C13.4911 9.43782 13.4911 11.8122 12.0267 13.2766L8.27665 17.0267C6.81218 18.4911 4.43782 18.4911 2.97335 17.0267C1.50888 15.5622 1.50888 13.1878 2.97335 11.7234L4.43749 10.2592M15.5625 9.74079L17.0267 8.27665C18.4911 6.81218 18.4911 4.43782 17.0267 2.97335C15.5622 1.50888 13.1878 1.50888 11.7234 2.97335L7.97335 6.72335C6.50888 8.18782 6.50888 10.5622 7.97335 12.0267C8.28327 12.3366 8.63394 12.5809 9.00812 12.7597"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
+export const DropDownSvg = ({ className }: { className: string }) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="16"
+		height="16"
+		viewBox="0 0 16 16"
+		fill="none"
+		className={className}
+	>
+		<path
+			d="M13 5.5L8 10.5L3 5.5"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
+export const LocationSelectSvg = () => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="20"
+		height="20"
+		viewBox="0 0 20 20"
+		fill="none"
+	>
+		<path
+			d="M12.5 8.75C12.5 10.1307 11.3807 11.25 10 11.25C8.61929 11.25 7.5 10.1307 7.5 8.75C7.5 7.36929 8.61929 6.25 10 6.25C11.3807 6.25 12.5 7.36929 12.5 8.75Z"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+		<path
+			d="M16.25 8.75C16.25 14.7018 10 18.125 10 18.125C10 18.125 3.75 14.7018 3.75 8.75C3.75 5.29822 6.54822 2.5 10 2.5C13.4518 2.5 16.25 5.29822 16.25 8.75Z"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
+export const LanguagesSelectSvg = () => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="20"
+		height="20"
+		viewBox="0 0 20 20"
+		fill="none"
+	>
+		<path
+			d="M8.75 17.5L13.125 8.125L17.5 17.5M10 15H16.25M2.5 4.68447C4.13797 4.48022 5.8067 4.375 7.5 4.375M7.5 4.375C8.43401 4.375 9.36054 4.40701 10.2786 4.47M7.5 4.375V2.5M10.2786 4.47C9.31361 8.88151 6.40723 12.5668 2.5 14.5852M10.2786 4.47C11.0249 4.5212 11.7655 4.59288 12.5 4.68447M8.67606 11.7635C7.32129 10.3849 6.23087 8.74575 5.48694 6.92805"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
+export const CancelSelectedSvg = ({ onClick }: { onClick: () => void }) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="12"
+		height="12"
+		viewBox="0 0 12 12"
+		fill="none"
+		onClick={onClick}
+	>
+		<path
+			d="M3 9L9 3M3 3L9 9"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
