@@ -73,10 +73,12 @@ export default {
 			},
 			spacing: {
 				badge: "5px",
+				emailInput: "270px",
 				gridMax: "440px",
 				layout: "21px",
 				line: "18px",
 				minInput: "200px",
+				minSelect: "162px",
 				upload: "104px",
 			},
 		},

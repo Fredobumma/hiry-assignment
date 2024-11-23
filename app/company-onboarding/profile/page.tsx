@@ -47,12 +47,14 @@ const CompanyOnboardingProfile = () => {
 				/>
 				<FormButton />
 			</form>
-			<Link
-				href="/company-onboarding/details"
-				className="font-medium flex items-center gap-2 py-2.5 px-4 leading-button tracking-subheading text-subheading hover:scale-95 transition ease-in-out duration-500"
-			>
-				<BackSvg /> Back
-			</Link>
+			<div className="flex">
+				<Link
+					href="/company-onboarding/details"
+					className="font-medium flex items-center gap-2 py-2.5 px-4 leading-button tracking-subheading text-subheading hover:scale-95 transition ease-in-out duration-500"
+				>
+					<BackSvg /> Back
+				</Link>
+			</div>
 		</div>
 	);
 };

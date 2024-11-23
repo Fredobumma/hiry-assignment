@@ -47,7 +47,7 @@ const SelectInput = ({
 					id={id}
 					name={name}
 					onChange={handleSelectChange}
-					className={`w-full peer leading-button tracking-subheading min-w-minInput bg-transparent border border-noColor rounded-input px-3 py-2.5 transition duration-500 ease focus:outline-none focus:border-primary hover:border-primary appearance-none cursor-pointer ${
+					className={`w-full capitalize peer leading-button tracking-subheading bg-transparent border border-noColor min-w-minSelect rounded-input px-3 py-2.5 transition duration-500 ease focus:outline-none focus:border-primary hover:border-primary appearance-none cursor-pointer ${
 						value ? "" : "text-tertiary"
 					}`}
 				>

@@ -10,10 +10,12 @@ export { default as SelectInput } from "./SelectInput";
 export { default as TextArea } from "./TextArea";
 export { default as TextInput } from "./TextInput";
 export {
+	BackSvg,
+	EmailSvg,
 	LanguagesSelectSvg,
 	LocationSelectSvg,
+	PlusSvg,
 	ProfilePictureSvg,
 	TimezoneSelectSvg,
 	WebsiteInputSvg,
-	BackSvg,
 } from "./svgs";

@@ -1,10 +1,11 @@
 type LinkInputProps = {
-	label: string;
+	label?: string;
 	id: string;
 	name: string;
 	placeholder: string;
 	placeholderSymbol: string | React.ReactNode;
 	type: string;
+	className?: string;
 };
 
 const LinkInput = ({
@@ -14,15 +15,18 @@ const LinkInput = ({
 	placeholder,
 	placeholderSymbol,
 	type,
+	className,
 }: LinkInputProps) => {
 	return (
-		<div>
-			<label
-				htmlFor={id}
-				className="font-medium text-sm leading-button tracking-step"
-			>
-				{label}
-			</label>
+		<div className={className}>
+			{label && (
+				<label
+					htmlFor={id}
+					className="font-medium text-sm leading-button tracking-step"
+				>
+					{label}
+				</label>
+			)}
 			<div className="flex gap-2 items-center border border-noColor group focus:border-primary hover:border-primary min-w-minInput mt-2 px-3 rounded-input transition duration-500 ease">
 				<span className="text-tertiary leading-button tracking-subheading">
 					{placeholderSymbol}
