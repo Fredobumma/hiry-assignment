@@ -11,7 +11,7 @@ import {
 
 const CompanyOnboarding = () => {
 	return (
-		<section>
+		<div className="max-w-gridMax w-full">
 			{/* <TextInput
 				label="Company name"
 				name="companyName"
@@ -33,7 +33,7 @@ const CompanyOnboarding = () => {
 				type="url"
 				placeholder="acme.inc"
 				placeholderSymbol={<WebsiteInputSvg />}
-			/> */}
+			/> 
 			<TextArea />
 			<SelectInput
 				label="Industry"
@@ -51,8 +51,8 @@ const CompanyOnboarding = () => {
 				placeholder="Select location"
 				options={["india", "japan", "united kingdom"]}
 			/>
-			<MultipleSelectInput />
-		</section>
+			<MultipleSelectInput /> */}
+		</div>
 	);
 };
 

@@ -70,9 +70,10 @@ export default {
 			},
 			spacing: {
 				badge: "5px",
+				gridMax: "440px",
+				layout: "21px",
 				line: "18px",
 				minInput: "200px",
-				formMax: "438px"
 			},
 		},
 	},

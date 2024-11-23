@@ -1,4 +1,4 @@
-import { NavList } from "@/appComponents";
+import { Header, NavList } from "@/appComponents";
 
 export default function Layout({
 	children,
@@ -6,9 +6,12 @@ export default function Layout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<main>
-			{/* <NavList /> */}
-			{children}
+		<main className="px-10">
+			<Header />
+			<section className="flex gap-layout pt-4">
+				<NavList />
+				{children}
+			</section>
 		</main>
 	);
 }

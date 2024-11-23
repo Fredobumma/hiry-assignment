@@ -41,8 +41,8 @@ const NavList = () => {
 	const progressIndex = listItems.findIndex(({ href }) => href === pathname);
 
 	return (
-		<nav>
-			<ul className="">
+		<nav className="max-w-gridMax mt-3 w-full">
+			<ul>
 				{listItems.map(({ href, title, Icon }, i) => (
 					<li key={i} className="h-fit">
 						<Link

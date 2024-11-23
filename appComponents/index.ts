@@ -1,3 +1,4 @@
+export { default as Header } from "./Header";
 export { default as IconSelectInput } from "./IconSelectInput";
 export { default as LinkInput } from "./LinkInput";
 export { default as MultipleSelectInput } from "./MultipleSelectInput";
