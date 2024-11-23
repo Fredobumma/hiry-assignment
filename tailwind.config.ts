@@ -62,6 +62,7 @@ export default {
 				heading: "-0.64px",
 				subheading: "-0.32px",
 				step: "-0.28px",
+				welcomeHeading: "-0.72px",
 			},
 			lineHeight: {
 				button: "130%",

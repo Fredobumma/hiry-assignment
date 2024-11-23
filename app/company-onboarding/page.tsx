@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+
 import {
 	FormButton,
 	LinkInput,
@@ -10,6 +12,8 @@ import {
 } from "@/appComponents";
 
 const CompanyOnboarding = () => {
+	const router = useRouter();
+
 	return (
 		<div className="max-w-gridMax w-full">
 			<PageIntro
@@ -48,7 +52,9 @@ const CompanyOnboarding = () => {
 					placeholder="username"
 					placeholderSymbol="linkedin.com/"
 				/>
-				<FormButton />
+				<FormButton
+					onClick={() => router.push("/company-onboarding/details")}
+				/>
 			</form>
 		</div>
 	);

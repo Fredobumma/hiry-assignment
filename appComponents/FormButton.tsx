@@ -1,4 +1,4 @@
-const PageIntro = ({ onClick }: { onClick?: () => void }) => {
+const FormButton = ({ onClick }: { onClick?: () => void }) => {
 	return (
 		<button
 			type="submit"
@@ -17,4 +17,4 @@ const PageIntro = ({ onClick }: { onClick?: () => void }) => {
 	);
 };
 
-export default PageIntro;
+export default FormButton;

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 import {
 	BackSvg,
@@ -15,6 +16,8 @@ import {
 } from "@/appComponents";
 
 const CompanyOnboardingDetails = () => {
+	const router = useRouter();
+
 	return (
 		<div className="max-w-gridMax w-full">
 			<PageIntro
@@ -58,7 +61,9 @@ const CompanyOnboardingDetails = () => {
 						"(GMT-2) Greenwich Mean Time",
 					]}
 				/>
-				<FormButton />
+				<FormButton
+					onClick={() => router.push("/company-onboarding/profile")}
+				/>
 			</form>
 			<div className="flex">
 				<Link

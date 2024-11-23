@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 import {
 	BackSvg,
@@ -11,6 +12,8 @@ import {
 } from "@/appComponents";
 
 const CompanyOnboardingProfile = () => {
+	const router = useRouter();
+
 	return (
 		<div className="max-w-gridMax w-full">
 			<PageIntro
@@ -45,7 +48,9 @@ const CompanyOnboardingProfile = () => {
 					id="position"
 					placeholder="Your position"
 				/>
-				<FormButton />
+				<FormButton
+					onClick={() => router.push("/company-onboarding/invite-team")}
+				/>
 			</form>
 			<div className="flex">
 				<Link
