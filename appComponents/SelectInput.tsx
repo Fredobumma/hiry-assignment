@@ -28,7 +28,7 @@ const SelectInput = ({
 	};
 
 	return (
-		<>
+		<div>
 			{label && (
 				<label
 					htmlFor={id}
@@ -62,7 +62,7 @@ const SelectInput = ({
 				</select>
 				<DropDownSvg className="-z-10 ml-1 absolute inset-y-0 my-auto right-3 peer-focus-visible:rotate-180 transition duration-500 ease" />
 			</div>
-		</>
+		</div>
 	);
 };
 

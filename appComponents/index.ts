@@ -9,4 +9,10 @@ export { default as PageIntro } from "./PageIntro";
 export { default as SelectInput } from "./SelectInput";
 export { default as TextArea } from "./TextArea";
 export { default as TextInput } from "./TextInput";
-export { WebsiteInputSvg, LocationSelectSvg, LanguagesSelectSvg } from "./svgs";
+export {
+	LanguagesSelectSvg,
+	LocationSelectSvg,
+	TimezoneSelectSvg,
+	WebsiteInputSvg,
+	BackSvg,
+} from "./svgs";

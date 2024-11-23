@@ -10,7 +10,7 @@ const TextArea = () => {
 	};
 
 	return (
-		<>
+		<div>
 			<label
 				htmlFor="message"
 				className="font-medium text-sm leading-button tracking-step"
@@ -30,7 +30,7 @@ const TextArea = () => {
 					{text.length}/100
 				</span>
 			</div>
-		</>
+		</div>
 	);
 };
 

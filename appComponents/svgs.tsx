@@ -188,6 +188,24 @@ export const LocationSelectSvg = () => (
 	</svg>
 );
 
+export const TimezoneSelectSvg = () => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="20"
+		height="20"
+		viewBox="0 0 20 20"
+		fill="none"
+	>
+		<path
+			d="M10 5V10H13.75M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
+			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
 export const LanguagesSelectSvg = () => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -218,6 +236,24 @@ export const CancelSelectedSvg = ({ onClick }: { onClick: () => void }) => (
 		<path
 			d="M3 9L9 3M3 3L9 9"
 			stroke="#71717A"
+			strokeWidth="1.5"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		/>
+	</svg>
+);
+
+export const BackSvg = () => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="16"
+		height="16"
+		viewBox="0 0 16 16"
+		fill="none"
+	>
+		<path
+			d="M7 13L2 8M2 8L7 3M2 8H14"
+			stroke="#52525B"
 			strokeWidth="1.5"
 			strokeLinecap="round"
 			strokeLinejoin="round"
