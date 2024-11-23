@@ -41,9 +41,12 @@ export default {
 				step: "#71717A",
 				subheading: "#52525B",
 				tertiary: "#71717A",
+				uploadLogo: "#F1FFC7",
+				uploadText: "#166434",
 			},
 			fontSize: {
 				heading: "32px",
+				uploadPlaceholder: "28px",
 			},
 			keyframes: {
 				"accordion-down": {
@@ -74,6 +77,7 @@ export default {
 				layout: "21px",
 				line: "18px",
 				minInput: "200px",
+				upload: "104px",
 			},
 		},
 	},

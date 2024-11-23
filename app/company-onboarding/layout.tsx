@@ -8,7 +8,7 @@ export default function Layout({
 	return (
 		<main className="px-10">
 			<Header />
-			<section className="flex gap-layout pt-4">
+			<section className="flex gap-layout pt-4 pb-20">
 				<NavList />
 				{children}
 			</section>

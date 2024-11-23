@@ -16,7 +16,7 @@ const LinkInput = ({
 	type,
 }: LinkInputProps) => {
 	return (
-		<>
+		<div>
 			<label
 				htmlFor={id}
 				className="font-medium text-sm leading-button tracking-step"
@@ -35,7 +35,7 @@ const LinkInput = ({
 					placeholder={placeholder}
 				/>
 			</div>
-		</>
+		</div>
 	);
 };
 
