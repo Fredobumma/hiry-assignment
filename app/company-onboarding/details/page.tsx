@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 import {
 	BackSvg,
@@ -15,8 +15,6 @@ import {
 } from "@/appComponents";
 
 const CompanyOnboardingDetails = () => {
-	const router = useRouter();
-
 	return (
 		<div className="max-w-gridMax w-full">
 			<PageIntro
@@ -62,13 +60,12 @@ const CompanyOnboardingDetails = () => {
 				/>
 				<FormButton />
 			</form>
-			<button
-				type="button"
-				onClick={() => router.back()}
-				className="font-medium flex items-center gap-2 py-1 px-4 leading-button tracking-subheading text-subheading hover:scale-95 transition ease-in-out duration-500"
+			<Link
+				href="/company-onboarding"
+				className="font-medium flex items-center gap-2 py-2.5 px-4 leading-button tracking-subheading text-subheading hover:scale-95 transition ease-in-out duration-500"
 			>
 				<BackSvg /> Back
-			</button>
+			</Link>
 		</div>
 	);
 };

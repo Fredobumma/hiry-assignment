@@ -12,6 +12,7 @@ export { default as TextInput } from "./TextInput";
 export {
 	LanguagesSelectSvg,
 	LocationSelectSvg,
+	ProfilePictureSvg,
 	TimezoneSelectSvg,
 	WebsiteInputSvg,
 	BackSvg,
